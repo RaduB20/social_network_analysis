@@ -1,0 +1,19 @@
+name: sna_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - networkx
+  - pip
+  - pip:
+    - cdlib
+    - leidenalg
+    - python-louvain
+    - pyvis
+    - grakel
