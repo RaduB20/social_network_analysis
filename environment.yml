@@ -16,4 +16,4 @@ dependencies:
     - leidenalg
     - python-louvain
     - pyvis
-    - grakel
+    - git+https://github.com/yuxuan-z19/GraKeL.git #grakel
